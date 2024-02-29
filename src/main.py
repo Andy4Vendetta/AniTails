@@ -51,12 +51,12 @@ class AnitailsApplication(Adw.Application):
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='anitails',
+                                application_name='Ani Tails',
                                 application_icon='ru.vendenet.anitails',
-                                developer_name='Unknown',
+                                developer_name='Vendetteam',
                                 version='0.1.0',
-                                developers=['Unknown'],
-                                copyright='© 2024 Unknown')
+                                developers=['Andy4Vendetta', 'MoonKate'],
+                                copyright='© 2024 Vendetteam')
         about.present()
 
     def on_preferences_action(self, widget, _):
