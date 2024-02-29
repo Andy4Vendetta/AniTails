@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=anitails
+Exec=anitails
+Icon=ru.vendenet.anitails
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

@@ -1,0 +1,6 @@
+data/ru.vendenet.anitails.desktop.in
+data/ru.vendenet.anitails.metainfo.xml.in
+data/ru.vendenet.anitails.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
