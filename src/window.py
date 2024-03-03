@@ -17,14 +17,19 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-from gi.repository import Adw
-from gi.repository import Gtk
+from gi.repository import Adw, Gtk, Gio
 
 @Gtk.Template(resource_path='/ru/vendenet/anitails/window.ui')
 class AnitailsWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'AnitailsWindow'
 
-    label = Gtk.Template.Child()
-
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+#        main_text_view = Gtk.Template.Child()
+#        self.settings = Gio.Settings(schema_id="ru.vendenet.anitails")
+#        self.settings.bind("window-width", self, "default-width",
+#                           Gio.SettingsBindFlags.DEFAULT)
+#        self.settings.bind("window-height", self, "default-height",
+#                           Gio.SettingsBindFlags.DEFAULT)
+#        self.settings.bind("window-maximized", self, "maximized",
+#                           Gio.SettingsBindFlags.DEFAULT)

@@ -4,5 +4,6 @@ Exec=anitails
 Icon=ru.vendenet.anitails
 Terminal=false
 Type=Application
-Categories=GTK;
+Categories=GTK;Video;
 StartupNotify=true
+Keywords=Player;Video;Anime;AniTails;AniTales;AnyTails;AnyTales;

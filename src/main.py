@@ -23,6 +23,7 @@ import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
+from gettext import gettext as _
 from gi.repository import Gtk, Gio, Adw
 from .window import AnitailsWindow
 
@@ -54,14 +55,19 @@ class AnitailsApplication(Adw.Application):
                                 application_name='Ani Tails',
                                 application_icon='ru.vendenet.anitails',
                                 developer_name='Vendetteam',
-                                version='0.1.0',
+                                version='0.0.1.beta',
                                 developers=['Andy4Vendetta', 'MoonKate'],
-                                copyright='© 2024 Vendetteam')
+                                designers=['MoonKate'],
+                                copyright='© Vendetteam',
+                                license_type=Gtk.License.GPL_3_0,
+                                issue_url="https://github.com/Andy4Vendetta/AniTails/issues/new/choose")
         about.present()
 
     def on_preferences_action(self, widget, _):
         """Callback for the app.preferences action."""
         print('app.preferences action activated')
+        prefs = Adw.PreferencesWindow()
+        prefs.present()
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
