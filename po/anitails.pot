@@ -15,8 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 msgid "TEST"
-msgstr "ТЕСТ"
+msgstr ""
 
 #: src/window.ui:48
 msgid "About Anitails"
-msgstr "Об Anitails"
+msgstr ""

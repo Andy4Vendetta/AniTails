@@ -17,7 +17,7 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-from gi.repository import Adw, Gtk, Gio
+from gi.repository import Adw, Gtk
 
 @Gtk.Template(resource_path='/ru/vendenet/anitails/window.ui')
 class AnitailsWindow(Adw.ApplicationWindow):
