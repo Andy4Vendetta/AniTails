@@ -7,17 +7,24 @@ desktop_file = i18n.merge_file(
   install_dir: get_option('datadir') / 'applications'
 )
 
+gnome.compile_resources('anitails',
+  'anitails.gresource.xml',
+  gresource_bundle: true,
+  install: true,
+  install_dir: pkgdatadir,
+)
+
 desktop_utils = find_program('desktop-file-validate', required: false)
 if desktop_utils.found()
   test('Validate desktop file', desktop_utils, args: [desktop_file])
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'ru.vendenet.anitails.metainfo.xml.in',
-       output: 'ru.vendenet.anitails.metainfo.xml',
+        input: 'ru.vendenet.anitails.appdata.xml.in',
+       output: 'ru.vendenet.anitails.appdata.xml',
        po_dir: '../po',
       install: true,
-  install_dir: get_option('datadir') / 'metainfo'
+  install_dir: get_option('datadir') / 'appdata'
 )
 
 appstreamcli = find_program('appstreamcli', required: false, disabler: true)

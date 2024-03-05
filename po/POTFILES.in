@@ -1,6 +1,5 @@
+data/ru.vendenet.anitails.appdata.xml.in
 data/ru.vendenet.anitails.desktop.in
-data/ru.vendenet.anitails.metainfo.xml.in
-data/ru.vendenet.anitails.gschema.xml
-src/main.py
+data/ui/gtk/help-overlay.ui
+data/ui/window.ui
 src/window.py
-src/window.ui

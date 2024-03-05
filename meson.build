@@ -7,7 +7,9 @@ project('anitails',
 i18n = import('i18n')
 gnome = import('gnome')
 
-
+pkgdatadir = get_option('prefix') / get_option('datadir') / meson.project_name()
+moduledir = pkgdatadir / 'anitails'
+gnome = import('gnome')
 
 subdir('data')
 subdir('src')
