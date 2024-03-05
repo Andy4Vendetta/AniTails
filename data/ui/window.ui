@@ -23,22 +23,35 @@
             <child>
               <object class="AdwViewStackPage">
                 <property name="title">Main</property>
-                <property name="name">Best</property>
+                <property name="name">Main</property>
                 <property name="icon-name">trophy</property>
                 <property name="child">
                   <object class="GtkLabel">
-                    <property name="label" translatable="true">Sheesh</property>
+                    <property name="label" translatable="yes">Main Page</property>
                   </object>
                 </property>
               </object>
             </child>
             <child>
               <object class="AdwViewStackPage">
-                <property name="title">Favourite</property>
+                <property name="title">Favourites</property>
                 <property name="name">Favs</property>
+                <property name="icon-name">heart</property>
                 <property name="child">
                   <object class="GtkLabel">
-                    <property name="label">hoho</property>
+                    <property name="label" translatable="yes">Favourites</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
+              <object class="AdwViewStackPage">
+                <property name="title">History</property>
+                <property name="name">Hist</property>
+                <property name="icon-name">history</property>
+                <property name="child">
+                  <object class="GtkLabel">
+                    <property name="label" translatable="yes">History</property>
                   </object>
                 </property>
               </object>

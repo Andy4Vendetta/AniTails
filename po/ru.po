@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Ani Tails 0.0.1.beta\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-05 23:07+0500\n"
-"PO-Revision-Date: 2024-03-05 23:30+0500\n"
+"PO-Revision-Date: 2024-03-06 00:19+0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: data/ui/window.ui:30
 msgid "Sheesh"
-msgstr "Щищ"
+msgstr ""
 
 #: data/ui/window.ui:63
 msgid "Menu"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: data/ui/window.ui:72
 msgid "Random Anime"
-msgstr ""
+msgstr "Случайное Аниме"
 
 #: data/ui/window.ui:80
 msgid "Search Anime"

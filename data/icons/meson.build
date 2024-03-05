@@ -19,3 +19,11 @@ install_data(
   symbolic_dir / ('trophy-symbolic.svg'),
   install_dir: get_option('datadir') / 'icons' / symbolic_dir
 )
+install_data(
+  symbolic_dir / ('heart-symbolic.svg'),
+  install_dir: get_option('datadir') / 'icons' / symbolic_dir
+)
+install_data(
+  symbolic_dir / ('history-symbolic.svg'),
+  install_dir: get_option('datadir') / 'icons' / symbolic_dir
+)
